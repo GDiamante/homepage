@@ -1,0 +1,48 @@
+body {
+	background: #1F222D;
+}
+
+#left {
+	float: left;
+}
+
+#centre {
+    width: 262px;
+    height: 800px;
+    position: relative;
+    background: #1F222D;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#button {
+    width: 250px;
+    height: 100px;
+    position: relative;
+    background: #36588e;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #1F222D;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#right {
+	float: right;
+	border-top: 40px solid #1F222D;
+	border-right: 30px solid #1F222D;
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+
+canvas {display: block;}
+
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
