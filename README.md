@@ -1,2 +1,2 @@
-# webdesign
-Files for web sites
+# homepage
+Simple home page with quick links to frequently used websites
