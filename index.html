@@ -1,65 +1,68 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>
-		Homepage
-	</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>
+    Homepage
+  </title>
 </head>
 
 <body>
-	<div id="left" style="border: 150px solid #1F222D">
-		<!--Image can be placed for left side in here-->
-	</div>
+  <div class="mainWrapper">
+    <!-- Implement button editor (add/delete your links) -->
+    <div class="buttonColumn">
+      <a href="http://www.youtube.ca">
+        <div id="button">
+          <p>YouTube</p>
+        </div>
+      </a>
 
-	<div id="right">
-		<!--<canvas id="c"></canvas>-->
-	</div>
+      <a href="http://mail.google.com/">
+        <div id="button">
+          <p>Gmail</p>
+        </div>
+      </a>
 
-	<div id="centre" style="margin-top: 4px">
-		<a href="http://www.youtube.ca">
-		<div id="button">
-			<p>YouTube</p>
-		</div>
-		</a>
+      <a href="http://www.messenger.com">
+        <div id="button">
+          <p>Messenger</p>
+        </div>
+      </a>
 
-		<a href="http://mail.google.com/">
-		<div id="button">
-			<p>Gmail</p>
-		</div>
-		</a>
-		
-		<a href="http://www.messenger.com">
-		<div id="button">
-			<p>Messenger</p>
-		</div>
-		</a>
+      <a href="http://www.reddit.com">
+        <div id="button">
+          <p>Reddit</p>
+        </div>
+      </a>
 
-		<a href="http://www.reddit.com">
-		<div id="button">
-			<p>Reddit</p>
-		</div>
-		</a>
+      <a href="https://github.com/">
+        <div id="button">
+          <p>GitHub</p>
+        </div>
+      </a>
 
-		<a href="https://github.com/">
-		<div id="button">
-			<p>GitHub</p>
-		</div>
-		</a>
+      <a href="http://www.amazon.ca">
+        <div id="button">
+          <p>Amazon</p>
+        </div>
+      </a>
 
-		<a href="http://www.amazon.ca">
-		<div id="button">
-			<p>Amazon</p>
-		</div>
-		</a>
-
-		<a href="http://www.google.ca">
-		<div id="button">
-			<p>Google</p>
-		</div>
-		</a>
-	</div>
+      <a href="http://www.google.ca">
+        <div id="button">
+          <p>Google</p>
+        </div>
+      </a>
+    </div>
+    <div class="notePad">
+      <div class="innerNotePad">
+        <textarea id="note-text" placeholder="Enter your note..."></textarea>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
 </body>
 
 </html>

@@ -3,45 +3,56 @@ body {
 	background: #1F222D;
 }
 
-#left {
-	float: left;
+.mainWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40%;
+    height: 90vh;
 }
 
-#centre {
-    width: 262px;
-    height: 800px;
-    position: relative;
-    background: #1F222D;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
+/* Update this */
 #button {
     width: 250px;
     height: 100px;
     position: relative;
     background: #36588e;
-    margin-left: auto;
-    margin-right: auto;
     border-style: solid;
     border-width: 6px;
     border-color: #1F222D;
+    border-radius: 5px;
     font-size: 30px;
     font-family: sans-serif;
+    text-align: center;
 }
 
-#right {
-	float: right;
-	border-top: 40px solid #1F222D;
-	border-right: 30px solid #1F222D;
-	margin: 0;
-	padding: 0;
-	background: black;
+.notePad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #12141b;
+    min-width: 30rem;
+    height: 35rem;
+    margin: auto;
+    border-radius: 5px;
 }
 
-canvas {display: block;}
+.innerNotePad {
+    height: 96%;
+    width: 96%;
+    background-color: #12141b;
+}
 
+#note-text {
+    background-color: #12141b;
+    color: #d5dbe0;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+}
 
 a {
 	text-decoration: none;
